@@ -1,5 +1,5 @@
 # EE337-Projects
-This repo comprises of the project topics I've completed from the required projects for EE 337
+This repo comprises of the project topics I've completed from the required projects for EE 337, written on 8051 assembly language and Embedded C.
 
 ## Obstacle
 This program generates the Google Dinosaur game on the LCD, with a 'D' representing the dinosaur and a * representing the obstacles that appear.
@@ -26,3 +26,4 @@ Each new customer can be given a token if they press the character t on the keyb
 Whenever the switch corresponding to each of the bank counters is toggled, the top of this queue is popped off the tokens list, and sent to the respective bank counter.
 This continues until 100 tokens are given, after which the tokens get reset and start back from 0.
 However, whenever the tokens are not added to the queue, the four bank counters along with the tokens at each counter are shown on the LCD.
+The file for this program is bankqueue.c
